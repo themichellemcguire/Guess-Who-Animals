@@ -1,0 +1,48 @@
+* {
+    font-family: 'Concert One', cursive;
+    box-sizing: border-box;
+    background-color: green;
+
+  }
+
+h1 {
+    justify-content: center;
+    align-content: center;
+
+}
+
+.wrapper {
+    display: inline-block;
+    flex-direction: row;
+    background-color: green;
+    justify-content: flex-start;
+    height: 100vh;
+    width: 490px;
+    padding: 10px 10px;
+    margin: 10px;
+    border: black 8px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "row1"
+        "row2"
+        "row3"
+        "row4";
+}
+
+.attFloppyEar {
+    background-color: white;
+}
+
+.attributes {
+    display: block;
+    border: 8px solid black;
+    flex-direction: column;
+    margin-block-end: auto;
+    height: 100vh;
+    width: 90px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "column1" "column2";
+}
